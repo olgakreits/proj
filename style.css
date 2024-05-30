@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Roboto", cursive;
+    color: white;
+}
+
+body {
+    display: flex;
+    background-color: rgb(5, 5, 5);
+}
+
+.left_panel {
+    display: flex;
+    width: 15%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-right: 1px solid gray;
+    height: 100vh;
+}
+
+.settings {
+    width: 40px;
+    position: relative;
+    left: 10px;
+    margin-left: 15px;
+}
+
+.left_card {
+    width: 10%;
+    display: flex;
+    margin-top: 5%;
+}
+
+.left_icon {
+    width: 35px;
+    margin-right: 10px;
+}
+
+.logo {
+    width: 80px;
+    position: relative;
+    top: 10px;
+}
+
+.library {
+    display: flex;
+    border-bottom: 0.5px solid gray;
+    padding-bottom: 50px;
+    margin-left: 80%;
+}
+
+.home {
+    display: flex;
+    margin-left: 80%;
+}
+
+.compass {
+    display: flex;
+    margin-left: 80%;
+}
+
+.text {
+    font-size: 25px;
+    font-family: "Roboto", cursive;
+    color: white;
+}
+
+.text_opacity {
+    font-size: 25px;
+    color: gray;
+    filter: opacity(80%);
+    margin-left: 15px;
+}
+
+.screach {
+    width: 450px;
+    height: 50px;
+    background-color: rgb(174, 173, 173);
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-left: 5px;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 75px;
+    margin-left: 75px;
+}
+
+.icon_screach {
+    filter: opacity(80%);
+    margin-bottom: 5px;
+}
+
+
+.accaunt_photo {
+    width: 3%;
+    position: absolute;
+    right: 75px;
+    top: 10px;
+    border-radius: 50%;
+}
+
+.full_panel {
+    width: 100%;
+    background: rgb(223, 55, 55);
+    background: linear-gradient(170deg, rgba(223, 55, 55, 0.1) 0%, rgba(203, 87, 44, 0.05) 35%, rgba(0, 0, 0, 1) 75%, rgba(0, 0, 0, 1) 100%);
+}
+
+.accaunt_logo {
+    margin-left: 75px;
+    width: 75px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.listen_again_bar {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+.listen_again {
+    margin-top: 10px;
+}
+
+.playlist {
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+}
+
+.opis_name {
+    color: gray;
+}
+
+.listen_again_card {
+    display: flex;
+    margin-left: 75px;
+}
+
+.listen_again {
+    margin-right: 20px;
+}
+
+.playlist:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+    margin-bottom: 5px;
+}
+
+.set_logo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom: 1px solid gray;
+    height: 8.3vh;
+}
+

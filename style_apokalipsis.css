@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Roboto", cursive;
+    color: white;
+}
+
+body {
+    display: flex;
+    background-color: rgb(5, 5, 5);
+    margin-right: 75px;
+}
+
+.left_panel {
+    display: flex;
+    width: 15%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-right: 1px solid gray;
+    height: 100vh;
+}
+
+.settings {
+    width: 40px;
+    position: relative;
+    left: 10px;
+    margin-left: 15px;
+}
+
+.left_card {
+    width: 10%;
+    display: flex;
+    margin-top: 5%;
+}
+
+.left_icon {
+    width: 35px;
+    margin-right: 10px;
+}
+
+.logo {
+    width: 80px;
+    position: relative;
+    top: 10px;
+}
+
+.library {
+    display: flex;
+    border-bottom: 0.5px solid gray;
+    padding-bottom: 50px;
+    margin-left: 80%;
+}
+
+.home{
+    display: flex;
+    margin-left: 80%;
+}
+
+.compass{
+    display: flex;
+    margin-left: 80%;
+}
+
+.text {
+    font-size: 25px;
+    font-family: "Roboto", cursive;
+    color: white;
+}
+
+.text_opacity{
+    font-size: 25px;
+    color: gray;
+    filter: opacity(80%);
+    margin-left: 15px;
+}
+
+.screach {
+    width: 450px;
+    height: 50px;
+    background-color: rgb(174, 173, 173);
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-left: 5px;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 75px;
+    margin-left: 75px;
+}
+
+.icon_screach{
+    filter: opacity(80%);
+    margin-bottom: 5px;
+}
+
+.set_logo {
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+    height: 8.3vh;
+}
+
+.accaunt_photo {
+    width: 3%;
+    position: absolute;
+    right: 75px;
+    top: 10px;
+    border-radius: 50%;
+}
+
+.full_panel{
+    width: 100%;
+}
+
+.top_panel{
+    height: 7.1vh;
+    border-bottom: 1px solid gray;
+}
+
+.panel{
+    width: 100%;
+    display: flex;
+}
+
+.image{
+    width: 70%;
+    height: 81.4vh;
+    display: flex;
+    justify-content: center;
+}
+
+.rigth_panel{
+    width: 40%;
+}
+
+.image_center{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.top_bar{
+    display: flex;
+    height: 50px;
+    border-bottom: 1px solid white;
+    margin-top: 5vh;
+}
+
+.top_bar_text{
+    width: 20%;
+    margin: auto;
+}
+
+.add{
+    display: flex;
+    background-color: white;
+    border-radius: 16px;
+    width: 30%;
+    padding: 4px 8px 4px 13px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 70px;
+}
+
+.add_image{
+    width: 15%;
+    margin-right: 10px;
+}
+
+.istok{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    position: relative;
+    right: 50px;
+}
+
+.text_black{
+    color: black;
+}
+
+.istok_card{
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    font-size: 20px;
+}
+
+.istok_text{
+    color: gray;
+    font-size: 15px;
+}
+
+.autoplay{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.switch{
+    width: 10%;
+    position: relative;
+    bottom: 10px;
+}
+
+.icon_music{
+    width: 10%;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+.music{
+    display: flex;
+    background-color: rgb(64, 64, 64);
+    border-radius: 4px;
+    padding: 4px 8px;
+    align-items: center;
+}
+
+.music_card{
+    display: flex;
+}
+
+.off_autoplay{
+    margin-top: 10px;
+    font-size: 20px;
+}
